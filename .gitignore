@@ -17,3 +17,4 @@ modules-local
 modules-local/p112misc
 modules-contrib
 puppet.old
+mini_path.cmd
