@@ -60,6 +60,7 @@ Vagrant.configure(2) do |config|
      vb.customize [
 	     "modifyvm", :id,
 	     "--paravirtprovider", "kvm",
+         "--rtcuseutc", "on",
 	     #"--cpus", "1"
      ]
   end

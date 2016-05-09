@@ -60,4 +60,5 @@ node default {
   File["/home/user01/.ssh/config"]
 
   #include syncthing
+  include xen::host
 }
