@@ -5,6 +5,7 @@
 .vagrant
 Puppetfile.lock
 clean.cmd
+import_common.cmd
 import_modules.trusty.sh
 import_modules.win.cmd
 import_modules.win.sh
