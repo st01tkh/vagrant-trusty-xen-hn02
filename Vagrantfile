@@ -61,6 +61,7 @@ Vagrant.configure(2) do |config|
 	     "modifyvm", :id,
 	     "--paravirtprovider", "kvm",
          "--rtcuseutc", "on",
+         "--nicpromisc2", "allow-all",
 	     #"--cpus", "1"
      ]
   end
